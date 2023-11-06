@@ -1,3 +1,4 @@
+# from replit import clear
 from art import logo
 
 print(logo)
@@ -28,4 +29,4 @@ while not terminar_apuesta:
         encontrar_max_apuesta(apostadores)
         terminar_apuesta = True
     elif seguir == "si":
-        clear()
+        #clear()

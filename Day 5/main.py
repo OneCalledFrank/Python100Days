@@ -51,7 +51,7 @@ for n in range(1, nr_numbers + 1):
     contrasena += random.choice(numbers)
     # print(numero_random)
 
-# print(contrasena)
+
 random.shuffle(contrasena)
 # print(contrasena)
 

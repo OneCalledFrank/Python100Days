@@ -35,7 +35,8 @@ while not should_end:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
-    # Se hace el módulo por 26 que son las letras del abecedario para que no se salga de la lista. Igual se mantiene dos alfabetos dentro de la primera lista 'alphabet'.
+# Se hace el módulo por 26 que son las letras del abecedario para que no se salga de la lista.
+# Igual se mantiene dos alfabetos dentro de la primera lista 'alphabet'.
     shift = shift % 26
 
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
